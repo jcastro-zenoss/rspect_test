@@ -9,7 +9,6 @@ end
 
 When /^I click on link with text: (.*?)$/ do |link_text|
   click_link(link_text)
-  sleep 3
 end 
 
 Then /^I should see a result with text: (.*?)$/ do |search_result|
